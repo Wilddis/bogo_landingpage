@@ -1,7 +1,36 @@
-.col-sm-3 {
-
+@font-face {
+    font-family: Hind;
+    src: url(Hind-Bold.ttf);
 }
 
-.col-sm-6 {
-  background-color: #fff;
+.logo {
+  height: 30px;
+  margin: 20px;
+  float: left;
+}
+
+nav {
+  position: fixed;
+}
+
+ul li {
+  list-style: none;
+  float: right;
+  margin: 20px;
+}
+
+.btn-default-outline {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  font: Hind;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section.intro {
+  background-image:url(../img/frontpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
