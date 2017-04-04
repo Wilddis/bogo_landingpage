@@ -3,7 +3,8 @@ font-family: 'Montserrat', sans-serif; */
 
 .logo {
   height: 30px;
-  margin: 20px;
+  margin-top: 40px;
+  margin-left: 120px;
   float: left;
 }
 
@@ -17,13 +18,27 @@ ul li {
   margin: 20px;
 }
 
+ul li a {
+  background-color: transparent;
+  border-color: #fff;
+  border-width: medium;
+  color: #fff;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .btn-default-outline {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
-  font: Hind;
+  font-family: 'Hind', sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+.container {
+  color: #fff;
 }
 
 section.intro {
@@ -31,4 +46,41 @@ section.intro {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+section.intro h1 {
+  margin-top: 250px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: black;
+  font-size: 50px;
+}
+
+section.intro p {
+  font-family: 'Hind', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+section.more_info {
+  background-color: #BAF4FF;
+  height: 100vh;
+  margin-top: 300px;
+}
+
+section.video {
+
+
+}
+
+section.facts {
+  background-color: #A9F9B4;
+  height: 100vh;
+  margin-top: 250px;
+}
+
+section.contact {
+  background-color: #555;
+  height: 100vh;
+  margin-top: 200px;
+
 }
