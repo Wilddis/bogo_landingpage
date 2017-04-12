@@ -10,22 +10,14 @@ font-family: 'Montserrat', sans-serif; */
 
 nav {
   position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 ul li {
   list-style: none;
   float: right;
   margin: 20px;
-}
-
-ul li a {
-  background-color: transparent;
-  border-color: #fff;
-  border-width: medium;
-  color: #fff;
-  font-family: 'Hind', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .btn-default-outline {
@@ -57,14 +49,25 @@ section.intro h1 {
 
 section.intro p {
   font-family: 'Hind', sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 30px;
 }
 
 section.more_info {
   background-color: #BAF4FF;
   height: 100vh;
-  margin-top: 300px;
+  margin-top: 170px;
+}
+
+section.more_info p {
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+section.more_info img {
+  float: right;
+  margin-right: -80px;
 }
 
 section.video {
@@ -75,12 +78,23 @@ section.video {
 section.facts {
   background-color: #A9F9B4;
   height: 100vh;
-  margin-top: 250px;
+}
+
+section.facts img {
+  float: left;
+  margin-left: -80px;
 }
 
 section.contact {
   background-color: #555;
   height: 100vh;
-  margin-top: 200px;
+}
 
+.form-group {
+
+}
+
+section.contact img {
+  float: right;
+  margin-right: -80px;
 }
