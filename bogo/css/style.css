@@ -1,11 +1,14 @@
 /*font-family: 'Hind', sans-serif;
 font-family: 'Montserrat', sans-serif; */
-
+body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+}
 .logo {
   height: 30px;
-  margin-top: 40px;
-  margin-left: 120px;
+  margin-top: 30px;
   float: left;
+  padding-left: 15px;
 }
 
 nav {
@@ -14,10 +17,14 @@ nav {
   z-index: 9999;
 }
 
-ul li {
+ul.main-menu {
+    float: right;
+}
+
+ul.main-menu li {
   list-style: none;
-  float: right;
-  margin: 20px;
+  padding: 20px;
+  display: inline-block;
 }
 
 .btn-default-outline {
@@ -56,38 +63,62 @@ section.intro p {
 section.more_info {
   background-color: #BAF4FF;
   height: 100vh;
-  margin-top: 170px;
+  padding: 150px 0px;
 }
 
-section.more_info p {
-  font-family: 'Hind', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
+
 
 section.more_info img {
   float: right;
   margin-right: -80px;
+  height: 500px;
+  overflow: hidden;
 }
 
-section.video {
+section.more_info h1 { 
+  font-size: 50px;
+  color: #404040;
+  font-weight: 900;
+}
 
-
+section.more_info p {
+  font-family: 'Hind', sans-serif;
+  color: #404040;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
 }
 
 section.facts {
   background-color: #A9F9B4;
   height: 100vh;
+  padding: 150px 0px;
+}
+
+section.facts h1 { 
+  font-size: 50px;
+  color: #404040;
+  font-weight: 900;
+}
+
+section.facts p {
+  font-family: 'Hind', sans-serif;
+  color: #404040;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
 }
 
 section.facts img {
   float: left;
   margin-left: -80px;
+  height: 500px;
 }
 
 section.contact {
   background-color: #555;
   height: 100vh;
+  padding: 150px 0px;
 }
 
 .form-group {
