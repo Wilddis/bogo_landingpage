@@ -1,0 +1,19 @@
+{
+  "name": "bogo",
+  "version": "1.0.0",
+  "description": "School project",
+  "main": "front.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilddis/bogo_landingpage.git"
+  },
+  "author": "Sigurður",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilddis/bogo_landingpage/issues"
+  },
+  "homepage": "https://github.com/Wilddis/bogo_landingpage#readme"
+}

@@ -1,3 +1,5 @@
+/*font-family: 'Hind', sans-serif;
+font-family: 'Montserrat', sans-serif; */
 body {
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
@@ -42,7 +44,7 @@ section.intro {
   background-image:url(../img/frontpage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 100vh;
 }
 
 section.intro h1 {
@@ -60,7 +62,7 @@ section.intro p {
 
 section.more_info {
   background-color: #BAF4FF;
-  height: 95vh;
+  height: 100vh;
   padding: 150px 0px;
   background-image: url('../img/iPadProSpaceGray.png');
   background-repeat: no-repeat;
@@ -93,7 +95,7 @@ section.more_info p {
 
 section.facts {
   background-color: #A9F9B4;
-  height: 95vh;
+  height: 100vh;
   padding: 150px 0px;
   background-image: url('../img/iPadPROnorthernlights.png');
   background-repeat: no-repeat;
@@ -126,7 +128,7 @@ section.video img {
 
 section.contact {
   background-color: #555;
-  height: 95vh;
+  height: 100vh;
   padding: 150px 0px;
   background-image: url('../img/iPadProgold.png');
   background-repeat: no-repeat;
