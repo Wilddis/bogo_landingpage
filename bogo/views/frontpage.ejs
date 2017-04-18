@@ -1,61 +1,60 @@
 <% include partials/header %>
-<section class="intro">
-  <div class="container">
-    <div class="row intro-text">
-       <div class="col-md-6">
-       </div>
-       <div class="col-md-6">
-         <h1>B2B Solution</h1>
-        <p>For hotels and information centers.</p>
-       </div>
-
+<section id="features" class="features">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="container-fluid">
+                    <img src="img/ipad1.png" class="img-responsive" alt="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="container-fluid">
+                    <h1>New opportunities</h1>
+                    <p>Easily book tours and activities through our white label solution on any tablet, phone or computer.
+                      Guests can book straight trough the app or with help from the front desk where the staff will have access to the admin area to see sales overview, modify, cancel and make new bookings.</p>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
-  </div>
-</section>
-<section class="more_info">
-  <div class="container">
-    <div class="row">
-       <div class="col-md-6">
-         <h1>Easy Booking</h1>
-         <p>Easily book tours and activities with our app that is design with great user experience in mind to maximize conversion for your business.</p>
-       </div>
-       <div class="col-md-6">
-       </div>
+  </section>
+
+  <section class="cta">
+      <div class="overlay"></div>
+  </section>
+
+  <section id="sales" class="sales">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="container-fluid">
+                    <h1>Pricing</h1>
+                    <p>We don't have any sign up, set up or hidden cost. Increase your revenue and provide better customer service with less work for you and your staff. Our solution is completely sales driven so you don't have any monthly cost.</p>
+                    <p>Our number one goal is to help you increase your revenue.</p>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="container-fluid">
+                    <img src="img/ipad2.png" class="img-responsive" alt="">
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="video">
-         <img src="img/video_sample.png" class="img-responsive" alt="myndband">
-</section>
-
-<section class="facts">
-  <div class="container">
-    <div class="row">
-       <div class="col-md-6">
-       </div>
-       <div class="col-md-6">
-          <h1>Sales driven</h1>
-          <p>We don't have any sign up, set up or hidden cost. You simply pay as you go through our white label affiliate program.</p>
-       </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-xs-12">
-      <form class="form-horizontal" method="post" role="form">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-      			<input type="email" class="form-control" id="email" name="email" placeholder="Email" required autofocus>
+  <section id="contact" class="contact bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Get in touch with us</h2>
+            <p>Are you interested in working with us?</p>
+            <form action="/contact">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
             <textarea id="message" name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
-            <button type="submit" class="btn btn-default-outline btn-md">Contact</button>
-          </div><div class="col-md-8"></div>
+            <button id="submit" type="submit" class="btn btn-primary">Send</button>
+          </form>
           </div>
         </div>
-</section>
+      </div>
+  </section>
 <% include partials/footer %>
